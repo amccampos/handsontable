@@ -147,7 +147,7 @@ class ManualColumnResize extends BasePlugin {
         top: cellBox.top - tableBox.top,
         left: cellBox.left - tableBox.left,
         width: cellBox.width
-      }
+      };
 
       this.currentCol = col;
       this.selectedCols = [];

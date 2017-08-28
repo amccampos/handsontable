@@ -141,7 +141,7 @@ class ManualRowResize extends BasePlugin {
         top: cellBox.top - tableBox.top,
         left: cellBox.left - tableBox.left,
         width: cellBox.width
-      }
+      };
 
       this.currentRow = row;
       this.selectedRows = [];
